@@ -157,6 +157,9 @@
     padding: 100px 0;
 
 }
+.services1 h3{
+    color: white;
+}
 .services-content{
     text-align: center;
 }
@@ -218,6 +221,7 @@ h2{
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+
 p{
     font-size: 16px;
     color: #414247;
