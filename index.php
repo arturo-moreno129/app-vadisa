@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <title>Vadisa Textil</title>
 </head>
 
 <body>
     <header class="header">
         <div class="menu container">
-            <a href="#" class="logo">logo</a>
+            <a href="#" class="logo"><img id="logo" style="width: 200px;" src="assets/logo.png" alt=""></a>
             <input type="checkbox" id="menu">
             <label for="menu">
                 <img src="assets/menu.png" alt="" class="menu-icono">
@@ -99,8 +100,8 @@
             <a href="" class="btn-1">Informacion</a>
         </div>
     </main>
-    
-    
+
+
     <section class="general">
         <div class="general-1">
             <h2>Total Telas</h2>
@@ -136,7 +137,7 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae earum quibusdam.</p>
         <div class="blog-content">
             <div class="blog-1">
-                <img src="assets/blog1.jpg" alt="">
+                <img src="assets/blog1.jpeg" alt="">
                 <h3>Blog 1</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, tempora, impedit error eum
@@ -145,7 +146,7 @@
                 </p>
             </div>
             <div class="blog-1">
-                <img src="assets/blog2.jpg" alt="">
+                <img src="assets/blog2.jpeg" alt="">
                 <h3>Blog 2</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, tempora, impedit error eum
@@ -154,7 +155,7 @@
                 </p>
             </div>
             <div class="blog-1">
-                <img src="assets/blog3.jpg" alt="">
+                <img src="assets/blog3.jpeg" alt="">
                 <h3>Blog 3</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, tempora, impedit error eum
@@ -165,7 +166,69 @@
         </div>
         <a href="" class="btn-1">Informacion</a>
     </section>
-    <footer class="footer">
+
+
+    <footer>
+        <!--<section class="descripcion">
+            <p>Soluciones de packaging para empresas</p>
+        </section>-->
+        <!-- Botón flotante con tooltip -->
+        <!-- Contenedor invisible que actúa como botón -->
+        <div class="whatsapp-float" onclick="window.open('https://wa.me/?text=Hola,%20me%20gustaría%20obtener%20más%20información.', '_blank')">
+            <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp">
+            <span class="tooltip-text">¡Contáctanos!</span>
+        </div>
+
+        <!-- Estilos -->
+        <style>
+            .whatsapp-float {
+                position: fixed;
+                width: 60px;
+                height: 60px;
+                bottom: 20px;
+                right: 20px;
+                background-color: #25D366;
+                color: #FFF;
+                border-radius: 50%;
+                text-align: center;
+                font-size: 30px;
+                box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+                z-index: 1000;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+            }
+
+            .whatsapp-float img {
+                width: 30px;
+                height: 30px;
+            }
+
+            .tooltip-text {
+                visibility: hidden;
+                background-color: #fff;
+                color: #000;
+                text-align: center;
+                padding: 5px 10px;
+                border-radius: 20px;
+                position: absolute;
+                right: 70px;
+                white-space: nowrap;
+                font-size: 14px;
+                box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+                transition: 0.3s;
+            }
+
+            .whatsapp-float:hover .tooltip-text {
+                visibility: visible;
+                opacity: 1;
+            }
+        </style>
+
+
+    </footer>
+    <!--<footer class="footer">
         <div class="footer-content container">
             <div class="link">
                 <h3>lorem</h3>
@@ -198,7 +261,7 @@
                 </ul>
             </div>
         </div>
-    </footer>
+    </footer>-->
 </body>
 
 </html>
