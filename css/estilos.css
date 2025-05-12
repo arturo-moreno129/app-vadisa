@@ -12,7 +12,7 @@
 }
 
 .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/fondo.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -133,6 +133,12 @@
 .coffee-1 img {
     width: 200px;
 }
+.coffee-2 img {
+    height: 200px;
+}
+.coffee-3 img {
+    height: 200px;
+}
 
 .coffee-img {
     position: absolute;
@@ -149,7 +155,7 @@
 .services {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),
             rgba(0, 0, 0, 0.7)),
-        url(/assets/bg.jpg);
+        url(../assets/fondo1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -201,14 +207,14 @@
     background-color: #E1E2E6;
 }
 .general-2 {
-    background-image: url(/assets/coffe-1.jpg);
+    background-image: url(../assets/tela1.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
 }
 .general-3{
-    background-image: url(/assets/coffee-2.jpg);
+    background-image: url(../assets/teta2.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

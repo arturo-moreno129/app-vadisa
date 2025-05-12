@@ -34,7 +34,7 @@
         </div>
     </header>
     <section class="coffee">
-        <img class="coffee-img" src="assets/bg2.png" alt="">
+        <!--<img class="coffee-img" src="assets/bg2.png" alt=""> son los granitos de cafe-->
         <div class="coffee-content container">
             <h2>Las diferente tipo de Telas</h2>
             <p class="txt-p">
@@ -45,7 +45,7 @@
 
             <di class="coffee-group">
                 <div class="coffee-1">
-                    <img src="assets/c1.png" alt="">
+                    <img src="assets/t1.png" alt="">
                     <h3>Tele lorem</h3>
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum corrupti consequuntur
@@ -53,8 +53,8 @@
                         quae voluptatibus voluptates iure aliquid adipisci voluptatum sit
                     </p>
                 </div>
-                <div class="coffee-1">
-                    <img src="assets/c2.png" alt="">
+                <div class="coffee-2">
+                    <img src="assets/t3.png" alt="">
                     <h3>Tele lorem</h3>
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum corrupti consequuntur
@@ -62,8 +62,8 @@
                         quae voluptatibus voluptates iure aliquid adipisci voluptatum sit
                     </p>
                 </div>
-                <div class="coffee-1">
-                    <img src="assets/c3.png" alt="">
+                <div class="coffee-3">
+                    <img src="assets/t2.png" alt="">
                     <h3>Tele lorem</h3>
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum corrupti consequuntur
