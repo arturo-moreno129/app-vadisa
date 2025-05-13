@@ -298,7 +298,7 @@ p {
 }
 @media(max-width:991px){
     .menu{
-        padding: 30px;
+        padding: 20px;
     }
     .menu label{
         display: initial;
@@ -321,10 +321,13 @@ p {
         min-height: 0vh;
     }
     .header-content{
-        padding: 100px 30px;
+        padding: 150px 3px;
     }
     .header-content p{
         padding: 0px;
+    }
+    .header-content h1{
+        font-size: 60px;
     }
     .coffee{
         padding: 30px;
