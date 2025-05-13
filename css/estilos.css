@@ -306,8 +306,8 @@ p {
     .menu .navbar{
         position: absolute;
         top: 100%;
-        left: 0;
-        right: 0;
+        left: 0px;
+        right: 0px;
         background-color: red;
         display: none;
     }
@@ -324,16 +324,16 @@ p {
         padding: 100px 30px;
     }
     .header-content p{
-        padding: 0;
+        padding: 0px;
     }
     .coffee{
         padding: 30px;
     }
     .coffee-content h2{
-        padding: 0;
+        padding: 0px;
     }
     .txt-p{
-        padding: 0;
+        padding: 0px;
     }
     .coffee-group{
         flex-direction: column;
@@ -346,7 +346,7 @@ p {
         padding: 30px;
     }
     .services-content p{
-        padding: 0;
+        padding: 0px;
     }
     .services-group{
         flex-direction: column;
@@ -354,6 +354,9 @@ p {
     }
     .services-1{
         margin-bottom: 25px;
+    }
+    .general{
+        flex-direction: column;
     }
     .general-1{
         width: 100%;
