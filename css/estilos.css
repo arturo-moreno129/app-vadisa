@@ -11,10 +11,8 @@
 }
 
 .container {
-    max-width: 100%;
-    margin: 0 0;
-    padding-left: 50px;
-    padding-right: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .header {
@@ -28,16 +26,13 @@
 }
 
 .menu {
-    position: sticky;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
-    overflow: hidden;
-    z-index: 9999;
 }
 
 .logo {
