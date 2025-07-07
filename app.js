@@ -16,3 +16,18 @@ inputs.forEach((input) => {
   input.addEventListener("focus", focusFunc);
   input.addEventListener("blur", blurFunc);
 });
+
+// Mostrar historia al cargar
+window.addEventListener("load", () => {
+  document.getElementById("history").classList.add("show");
+});
+
+// Slideshow logic
+const slides = document.querySelectorAll(".slideshow img");
+let current = 0;
+
+setInterval(() => {
+  slides[current].classList.remove("active");
+  current = (current + 1) % slides.length;
+  slides[current].classList.add("active");
+}, 4000);
