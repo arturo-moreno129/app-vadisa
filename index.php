@@ -52,7 +52,7 @@ include 'layouts/header.php'
     </div>
 </section>
 <!--<section class="coffee">
-        <!--<img class="coffee-img" src="assets/bg2.png" alt=""> son los granitos de cafe
+        <img class="coffee-img" src="assets/bg2.png" alt=""> son los granitos de cafe
         <div class="coffee-content container">
             <h2>Las diferente tipo de Telas</h2>
             <p class="txt-p">

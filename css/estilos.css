@@ -792,6 +792,11 @@ p {
     .hero-btn {
         padding: 10px 25px;
     }
+
+    .hero-image img {
+        width: 50%;
+        height: auto;
+    }
 }
 
 /*****************************Nosotros********************************/
@@ -903,7 +908,7 @@ p {
 .mvv-card:hover i,
 .mvv-card:hover {
     transform: translateY(-10px);
-    background-color:#f9a825 ;
+    background-color: #f9a825;
     color: white;
 }
 

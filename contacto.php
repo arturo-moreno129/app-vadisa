@@ -62,7 +62,7 @@ include 'layouts/header.php'
       </div>
 
       <div class="social-media">
-        <p>Connect with us :</p>
+        <p>Contactanos por:</p>
         <div class="social-icons">
           <a href="#">
             <i class="fab fa-facebook-f"></i>
