@@ -95,7 +95,7 @@ include 'layouts/header.php'
     </section>-->
 <main class="services">
     <div class="services-content container">
-        <h2>Nuestors servicios</h2>
+        <h2>Nuestros servicios</h2>
         <div class="services-group">
             <div class="services1">
                 <img src="assets/i1.svg" alt="">

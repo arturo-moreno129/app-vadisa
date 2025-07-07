@@ -23,18 +23,18 @@
 
 <body>
     <div class="menu container-menu">
-        <a href="index.php" class="logo"><img id="logo" style="width: 200px;" src="assets/logo.png" alt=""></a>
+        <a href="index" class="logo"><img id="logo" style="width: 200px;" src="assets/logo.png" alt=""></a>
         <input type="checkbox" id="menu">
         <label for="menu">
             <img src="assets/menu.png" alt="" class="menu-icono">
         </label>
         <nav class="navbar">
             <ul>
-                <li><a href="nosotros.php">Nosotros</a></li>
+                <li><a href="nosotros">Nosotros</a></li>
                 <li><a href="">Servicios</a></li>
                 <li><a href="">Usos</a></li>
                 <li><a href="">Productos</a></li>
-                <li><a href="contacto.php">Contaco</a></li>
+                <li><a href="contacto">Contaco</a></li>
             </ul>
         </nav>
     </div>
