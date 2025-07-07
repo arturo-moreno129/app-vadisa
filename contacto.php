@@ -89,7 +89,7 @@ include 'layouts/header.php'
         <div class="input-container">
           <input type="text" name="name" class="input" />
           <label for="">Nombre</label>
-          <span>Nombre</span>
+          <span>Nombres</span>
         </div>
         <div class="input-container">
           <input type="email" name="email" class="input" />
@@ -111,6 +111,26 @@ include 'layouts/header.php'
     </div>
   </div>
 </div>
+<script>
+  const inputs = document.querySelectorAll(".input");
+
+  function focusFunc() {
+    let parent = this.parentNode;
+    parent.classList.add("focus");
+  }
+
+  function blurFunc() {
+    let parent = this.parentNode;
+    if (this.value == "") {
+      parent.classList.remove("focus");
+    }
+  }
+
+  inputs.forEach((input) => {
+    input.addEventListener("focus", focusFunc);
+    input.addEventListener("blur", blurFunc);
+  });
+</script>
 <?php
 include 'layouts/footer.php'
 ?>

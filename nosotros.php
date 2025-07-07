@@ -64,7 +64,6 @@ include 'layouts/header.php'
         slides[current].classList.add("active");
     }, 4000);
 </script>
-
 <?php
 include 'layouts/footer.php'
 ?>
