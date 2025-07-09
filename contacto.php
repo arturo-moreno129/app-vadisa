@@ -51,13 +51,33 @@ include 'layouts/header.php'
           <img src="img/lugar.png" class="icon" alt="" />
           <p>Camino real 6 Tlapayatla, Santa Catarina Ayometla, Tlaxcala, CP 90770</p>
         </div>
-        <div class="information">
+        <div class="information-c">
           <img src="img/correo.png" class="icon" alt="" />
           <p>direccion@vadisatextil.com.mx</p>
         </div>
-        <div class="information">
-          <img src="img/telefono.png" class="icon" alt="" />
-          <p>222 489 5730</p>
+        <div class="information-c">
+          <img src="img/correo.png" class="icon" alt="" />
+          <p>ventas1@vadisatextil.com.mx</p>
+        </div>
+        <div class="information-w">
+          <img src="img/whatsapp.png" class="icon" alt="" />
+          <p>+52 221 201 6363</p>
+        </div>
+        <div class="information-c">
+          <img src="img/correo.png" class="icon" alt="" />
+          <p>ventas2@vadisatextil.com.mx</p>
+        </div>
+        <div class="information-w">
+          <img src="img/whatsapp.png" class="icon" alt="" />
+          <p>+52 221 252 7246</p>
+        </div>
+        <div class="information-c">
+          <img src="img/correo.png" class="icon" alt="" />
+          <p>compras@vadisatextil.com.mx</p>
+        </div>
+        <div class="information-w">
+          <img src="img/whatsapp.png" class="icon" alt="" />
+          <p>+52 246 168 0502</p>
         </div>
       </div>
 

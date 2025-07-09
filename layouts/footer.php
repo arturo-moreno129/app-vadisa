@@ -12,7 +12,12 @@
             <button class="whatsapp-contact"
                 onclick="window.open('https://wa.me/2212016363?text=Hola,%20necesito%20ayuda', '_blank')">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="whatsapp">
-                <h3>Asesora comercial</h3>
+                <h3>Agente comercial 1</h3>
+            </button>
+            <button class="whatsapp-contact"
+                onclick="window.open('https://wa.me/2212527246?text=Hola,%20necesito%20ayuda', '_blank')">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="whatsapp">
+                <h3>Agente comercial 2</h3>
             </button>
 
 
@@ -50,7 +55,7 @@
                 <li><i class="fa-solid fa-location-dot"></i> Camino real 6 Tlapayatla<br>
                     Santa Catarina<br>
                     Ayometla, Tlaxcala, CP 90770<br></li>
-                <li><i class="fa-solid fa-phone"></i> +52 1 221 201 6363</li>
+                <li><i class="fa-solid fa-phone"></i> 246 328 3510</li>
                 <li><i class="fa-solid fa-envelope"></i> ventas1@vadisatextil.com.mx</li>
                 <li><i class="fa-solid fa-envelope"></i> ventas2@vadisatextil.com.mx</li>
             </ul>

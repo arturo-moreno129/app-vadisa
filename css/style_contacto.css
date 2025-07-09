@@ -214,14 +214,37 @@ textarea.input {
   margin: 1.5rem 0 2rem 0;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
 .information {
   display: flex;
   color: #555;
-  margin: 0.7rem 0;
+  margin: 0;
   align-items: center;
   font-size: 0.95rem;
+  height: 50px;
 }
-
+.information-c {
+  display: flex;
+  color: #555;
+  margin: 0;
+  align-items: center;
+  font-size: 0.95rem;
+  height: 50px;
+}
+.information-w {
+  display: flex;
+  color: #555;
+  margin: 0;
+  align-items: center;
+  font-size: 0.95rem;
+  height: 50px;
+  padding-left: 40px;
+}
 .icon {
   width: 28px;
   margin-right: 0.7rem;

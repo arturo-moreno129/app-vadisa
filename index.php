@@ -40,7 +40,7 @@ include 'layouts/header.php'
     </div>
 
 </section>
-<section class="hero">
+<!--<section class="hero">
     <div class="hero-content">
         <div class="hero-text">
             <h1>Empoderamos <br> a las empresas <br> a través de la estrategia y previsión.</h1>
@@ -50,7 +50,7 @@ include 'layouts/header.php'
             <img src="https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg" alt="Equipo de trabajo">
         </div>
     </div>
-</section>
+</section>-->
 <!--<section class="coffee">
         <img class="coffee-img" src="assets/bg2.png" alt=""> son los granitos de cafe
         <div class="coffee-content container">
@@ -98,23 +98,23 @@ include 'layouts/header.php'
         <h2>Nuestros servicios</h2>
         <div class="services-group">
             <div class="services1">
-                <img src="assets/i1.svg" alt="">
+                <img src="assets/t1.png" style="width: 100px;"alt="">
                 <h3>Tejido</h3>
             </div>
-            <div class="services1">
-                <img src="assets/i2.svg" alt="">
+            <div class="services1" >
+                <img src="assets/t2.png" style="width: 150px;" alt="">
                 <h3>Acabado</h3>
             </div>
             <div class="services1">
-                <img src="assets/i3.svg" alt="">
+                <img src="assets/t3.png" style="width: 120px;"alt="">
                 <h3>Maquila</h3>
             </div>
         </div>
         <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ad repudiandae possimus, voluptatibus
                 excepturi assumenda dolore deleniti laboriosam, odio, obcaecati libero vero distinctio laborum eveniet
                 quasi ab necessitatibus. Beatae, culpa!
-            </p>
-            <a href="" class="btn-1">Informacion</a>-->
+            </p>-->
+            <a href="" class="btn-1">Informacion</a>
     </div>
 </main>
 
