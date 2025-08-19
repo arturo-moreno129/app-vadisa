@@ -197,7 +197,7 @@ include 'layouts/header.php'
                 <img src="assets/bordado.jpg" alt="Bosque con neblina">
                 <figcaption class="overlay">
                     <h3>BORDADOS PUNTO DE CRUZ</h3>
-                    <p>Los bordados a punto de cruz son una técnica de costura que utiliza una serie de cruces en forma de "X" para crear patrones y diseños en tela. Esta técnica es popular en la confección de ropa, accesorios y decoración del hogar.</p>
+                    <p>El bordado a punto de cruz es una técnica de costura que utiliza una serie de cruces para crear patrones y diseños en tela. Esta técnica es popular en la confección de ropa, accesorios y decoración del hogar.</p>
                 </figcaption>
                 <a href="#" aria-label="Abrir detalles de Bosque">Leer más</a>
             </figure>
@@ -215,7 +215,7 @@ include 'layouts/header.php'
                 <img src="assets/limpieza.webp" alt="Bosque con neblina">
                 <figcaption class="overlay">
                     <h3>SECTOR DE LIMPIEZA</h3>
-                    <p>El sector de limpieza se encarga de proporcionar productos y servicios para mantener la higiene y el orden en diversos espacios. Esto incluye la fabricación de productos de limpieza, así como la prestación de servicios de limpieza profesional.</p>
+                    <p>Las telas de limpieza ofrecen alta absorción, resistencia y durabilidad, ideales para remover polvo, grasa y líquidos sin dañar superficies, tanto en el hogar como en entornos industriales y comerciales.</p>
                 </figcaption>
                 <a href="#" aria-label="Abrir detalles de Bosque">Leer más</a>
             </figure>

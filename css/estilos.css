@@ -21,7 +21,7 @@
 }
 
 .container {
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -947,7 +947,7 @@ p {
 .grid {
     display: grid;
     gap: 22px;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));/*para tamaño de cards*/
 }
 
 .card {
@@ -1001,7 +1001,6 @@ p {
 
 .overlay p {
     transition-delay: .2s;
-    font-size: 13px;
 }
 
 /* Hover */
