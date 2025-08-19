@@ -98,15 +98,15 @@ include 'layouts/header.php'
         <h2>Nuestros servicios</h2>
         <div class="services-group">
             <div class="services1">
-                <img src="assets/t1.png" style="width: 100px;"alt="">
+                <img src="assets/t1.png" style="width: 100px;" alt="">
                 <h3>Tejido</h3>
             </div>
-            <div class="services1" >
+            <div class="services1">
                 <img src="assets/t2.png" style="width: 150px;" alt="">
                 <h3>Acabado</h3>
             </div>
             <div class="services1">
-                <img src="assets/t3.png" style="width: 120px;"alt="">
+                <img src="assets/t3.png" style="width: 120px;" alt="">
                 <h3>Maquila</h3>
             </div>
         </div>
@@ -114,7 +114,7 @@ include 'layouts/header.php'
                 excepturi assumenda dolore deleniti laboriosam, odio, obcaecati libero vero distinctio laborum eveniet
                 quasi ab necessitatibus. Beatae, culpa!
             </p>-->
-            <a href="" class="btn-1">Informacion</a>
+        <a href="" class="btn-1">Informacion</a>
     </div>
 </main>
 
@@ -153,66 +153,74 @@ include 'layouts/header.php'
 <section class="blog container">
     <h2>Usos</h2>
     <!--<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae earum quibusdam.</p>-->
-    <div class="blog-content">
-        <div class="blog-1">
-            <img src="assets/confeccion.jpeg" alt="">
-            <h3>CONFECCIÓN</h3>
-            <p>
-                El sector de la confección textil es una industria dinámica y fundamental para la moda, el diseño y
-                la producción industrial de prendas. Se encarga de transformar materias primas en productos
-                terminados como ropa, uniformes, accesorios y textiles para el hogar.
-            </p>
-        </div>
-        <div class="blog-1">
-            <img src="assets/entretelas.jpeg" alt="">
-            <h3>ENTRETELAS</h3>
-            <p>
-                Las entretelas son insumos técnicos fundamentales en diversos sectores textiles, utilizadas para
-                reforzar, estabilizar o dar cuerpo a telas y materiales. Se emplean tanto en confección tradicional
-                como en la fabricación de calzado y aplicaciones industriales.
-            </p>
-        </div>
-        <div class="blog-1">
-            <img src="assets/industrial.jpeg" alt="">
-            <h3>INDUSTRAIL</h3>
-            <p>
-                El sector industrial demanda telas resistentes, duraderas y funcionales que se adapten a distintos
-                entornos de trabajo. Estas telas se utilizan en la fabricación de uniformes, protección personal,
-                cubiertas, lonas, filtros y más. Cada tejido es seleccionado cuidadosamente según las necesidades de
-                resistencia, transpirabilidad, protección térmica o química.
-            </p>
-        </div>
-        <div class="blog-1">
-            <img src="assets/bordado.jpg" alt="">
-            <h3>BORDADOS PUNTO DE CRUZ</h3>
-            <p>
-                El bordado en punto de cruz requiere telas con una estructura especial que facilite contar los hilos
-                y mantener la precisión en cada puntada. Estas telas se caracterizan por tener un tejido uniforme y
-                cuadrícula visible, permitiendo que los bordados queden simétricos y bien definidos.
-            </p>
-        </div>
-        <div class="blog-1">
-            <img src="assets/bolsa.jpg" alt="">
-            <h3>TOTE BAGS</h3>
-            <p>
-                Las tote bags son bolsos de tela resistentes y reutilizables, diseñados para acompañarte en el día a
-                día con estilo y funcionalidad. Gracias a su tamaño amplio y asas cómodas, son ideales para
-                múltiples usos.
-                Disponibles en diferentes materiales como algodón, lona o telas recicladas, las tote bags se han
-                convertido en un accesorio indispensable, práctico y sostenible.
-            </p>
-        </div>
-        <div class="blog-1">
-            <img src="assets/limpieza.webp" alt="">
-            <h3>SECTOR DE LIMPIEZA</h3>
-            <p>
-                Las telas para limpieza están diseñadas para ofrecer alta absorción, resistencia y durabilidad,
-                convirtiéndolas en materiales esenciales para el aseo del hogar, la industria, cocinas, talleres y
-                comercios. Su funcionalidad está enfocada en facilitar la remoción de polvo, grasa, líquidos y
-                suciedad en general, sin dañar las superficies.
-            </p>
-        </div>
-    </div>
+    <div class="container">
+        <!--<header>
+      <div>
+        <h1>Cards con overlay y escala al hover</h1>
+        <p>Pasa el mouse sobre una card para ver el texto subir con fondo 0.7 y la imagen escalar.</p>
+      </div>
+    </header>-->
+
+        <section class="grid">
+            <!-- Card 1 -->
+            <figure class="card">
+                <img src="assets/confeccion.jpeg" alt="Montañas al atardecer">
+                <figcaption class="overlay">
+                    <h3>CONFECCION</h3>
+                    <p>El sector de la confección textil se encarga de transformar materias primas en productos terminados como ropa, uniformes, accesorios y textiles para el hogar.</p>
+                </figcaption>
+                <a href="#" aria-label="Abrir detalles de Montañas">Leer más</a>
+            </figure>
+
+            <!-- Card 2 -->
+            <figure class="card">
+                <img src="assets/entretelas.jpeg" alt="Ciudad moderna de noche">
+                <figcaption class="overlay">
+                    <h3>ENTRETELAS</h3>
+                    <p>Las entretelas son insumos técnicos utilizadas para reforzar, estabilizar o dar cuerpo a telas y materiales. Se emplean tanto en confección tradicional como en la fabricación de calzado y aplicaciones industriales.</p>
+                </figcaption>
+                <a href="#" aria-label="Abrir detalles de Ciudad">Leer más</a>
+            </figure>
+
+            <!-- Card 3 -->
+            <figure class="card">
+                <img src="assets/industrial.jpeg" alt="Playa con mar azul">
+                <figcaption class="overlay">
+                    <h3>INDUSTRIAL</h3>
+                    <p>El sector industrial demanda telas resistentes, duraderas y funcionales. Cada tejido es seleccionado cuidadosamente según las necesidades de resistencia, transpirabilidad, protección térmica o química.</p>
+                </figcaption>
+                <a href="#" aria-label="Abrir detalles de Playa">Leer más</a>
+            </figure>
+
+            <!-- Card 4 -->
+            <figure class="card">
+                <img src="assets/bordado.jpg" alt="Bosque con neblina">
+                <figcaption class="overlay">
+                    <h3>BORDADOS PUNTO DE CRUZ</h3>
+                    <p>Los bordados a punto de cruz son una técnica de costura que utiliza una serie de cruces en forma de "X" para crear patrones y diseños en tela. Esta técnica es popular en la confección de ropa, accesorios y decoración del hogar.</p>
+                </figcaption>
+                <a href="#" aria-label="Abrir detalles de Bosque">Leer más</a>
+            </figure>
+            <!-- Card 5 -->
+            <figure class="card">
+                <img src="assets/bolsa.jpg" alt="Bosque con neblina">
+                <figcaption class="overlay">
+                    <h3>TOTE BAGS</h3>
+                    <p>Las tote bags son bolsas de tela grandes y resistentes, ideales para llevar compras, libros o cualquier otro objeto. Suelen ser reutilizables y una alternativa ecológica a las bolsas de plástico.</p>
+                </figcaption>
+                <a href="#" aria-label="Abrir detalles de Bosque">Leer más</a>
+            </figure>
+            <!-- Card 5 -->
+            <figure class="card">
+                <img src="assets/limpieza.webp" alt="Bosque con neblina">
+                <figcaption class="overlay">
+                    <h3>SECTOR DE LIMPIEZA</h3>
+                    <p>El sector de limpieza se encarga de proporcionar productos y servicios para mantener la higiene y el orden en diversos espacios. Esto incluye la fabricación de productos de limpieza, así como la prestación de servicios de limpieza profesional.</p>
+                </figcaption>
+                <a href="#" aria-label="Abrir detalles de Bosque">Leer más</a>
+            </figure>
+        </section>
+    </div><br>
     <a href="" class="btn-1">Informacion</a>
 </section>
 <?php

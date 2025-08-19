@@ -21,7 +21,7 @@
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -929,4 +929,102 @@ p {
     font-size: 1rem;
     color: #555;
     line-height: 1.6;
+}
+
+
+/***********************************estilos cards usos**********************************************/
+:root {
+    --overlay: rgba(0, 0, 0, 0.7);
+    --radius: 18px;
+    --speed-overlay: .5s;
+    --speed-img: .8s;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.grid {
+    display: grid;
+    gap: 22px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.card {
+    position: relative;
+    border-radius: var(--radius);
+    overflow: hidden;
+    aspect-ratio: 4 / 5;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .35);
+    background: #111;
+}
+
+.card img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform var(--speed-img) cubic-bezier(.25, .8, .25, 1),
+        filter var(--speed-img) cubic-bezier(.25, .8, .25, 1);
+    will-change: transform, filter;
+}
+
+/* Overlay ocupa toda la card */
+.overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: var(--overlay);
+    color: #fff;
+    text-align: center;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform var(--speed-overlay) ease, opacity var(--speed-overlay) ease;
+    z-index: 2;
+}
+
+.overlay h3,
+.overlay p {
+    transform: translateY(20px);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.overlay h3 {
+    transition-delay: .1s;
+}
+
+.overlay p {
+    transition-delay: .2s;
+    font-size: 13px;
+}
+
+/* Hover */
+.card:hover img,
+.card:focus-within img {
+    transform: scale(1.1);
+    filter: brightness(.9) contrast(1.05) saturate(1.1);
+}
+
+.card:hover .overlay,
+.card:focus-within .overlay {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.card:hover .overlay h3,
+.card:focus-within .overlay h3,
+.card:hover .overlay p,
+.card:focus-within .overlay p {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.overlay p {
+    color: #fff;
 }
