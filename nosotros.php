@@ -64,6 +64,44 @@ include 'layouts/header.php'
         slides[current].classList.add("active");
     }, 4000);
 </script>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const cards = document.querySelectorAll('.mvv-card');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                }
+            });
+        }, {
+            threshold: 0.2
+        });
+
+        cards.forEach(card => observer.observe(card));
+    });
+</script>
+
+<style>
+    .mvv-card {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+    .mvv-card.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    /* Tu hover original no se toca */
+    .mvv-card:hover {
+        transform: scale(1.05);
+        /* ejemplo de hover que se mantiene */
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+</style>
 <?php
 include 'layouts/footer.php'
 ?>

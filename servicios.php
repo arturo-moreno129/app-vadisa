@@ -184,7 +184,7 @@ include 'layouts/header.php';
     <div class="hero-content">
         <div class="hero-text">
             <h1>Confección y servicios textiles de calidad</h1>
-            <p style="color: white;">Desde el tejido hasta el acabado y maquila, en <strong>Eva Soluciones Textiles</strong> transformamos la materia prima en piezas listas para tu producción.</p>
+            <p style="color: white;">Desde el tejido hasta el acabado y maquila, en <strong>Vadisa Textil</strong> transformamos la materia prima en piezas listas para tu producción.</p>
         </div>
     </div>
 </section>
