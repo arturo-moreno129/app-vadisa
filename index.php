@@ -114,7 +114,7 @@ include 'layouts/header.php'
                 excepturi assumenda dolore deleniti laboriosam, odio, obcaecati libero vero distinctio laborum eveniet
                 quasi ab necessitatibus. Beatae, culpa!
             </p>-->
-        <a href="" class="btn-1">Informacion</a>
+        <a href="servicios" class="btn-1">Informacion</a>
     </div>
 </main>
 

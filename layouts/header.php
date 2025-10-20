@@ -31,10 +31,10 @@
         <nav class="navbar">
             <ul>
                 <li><a href="nosotros">Nosotros</a></li>
-                <li><a href="">Servicios</a></li>
+                <li><a href="servicios">Servicios</a></li>
                 <li><a href="">Usos</a></li>
                 <li><a href="">Productos</a></li>
-                <li><a href="contacto">Contaco</a></li>
+                <li><a href="contacto">Contacto</a></li>
             </ul>
         </nav>
     </div>
