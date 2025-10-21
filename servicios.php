@@ -202,7 +202,7 @@ include 'layouts/header.php';
 
                     Ofrecemos un servicio especializado de acabado textil para telas de algodón, diseñado para mejorar las propiedades estéticas, táctiles y funcionales de cada pieza. Nuestro proceso incluye suavizado, teñidos, estampados, sanforizado, afelpado, aprestados, etc. , adaptado a las necesidades de cada cliente y al uso final del textil.
                     Ofrecemos atención personalizada, adaptación según el uso final del tejido y entrega confiable. Trabajamos tanto con producciones grandes como con volúmenes bajos, según tus necesidades.</p>
-                <a class="service-action" href="#">Más info</a>
+                <!--<a class="service-action" href="#">Más info</a>-->
             </div>
         </article>
 
@@ -217,7 +217,7 @@ include 'layouts/header.php';
                     Contamos con maquinaria de alto rendimiento y un equipo capacitado que garantiza procesos eficientes, personalizados y a la medida de cada proyecto. Nuestros servicios están pensados para quienes buscan tejidos naturales, cómodos y funcionales, ideales para confección, moda, hogar, industria y más.
 
                     Producción personalizada, bajos mínimos y entregas a toda la República.</p>
-                <a class="service-action" href="#">Más info</a>
+                <!--<a class="service-action" href="#">Más info</a>-->
             </div>
         </article>
 
@@ -230,7 +230,7 @@ include 'layouts/header.php';
                 <p class="service-desc">Desde el diseño hasta la entrega, confeccionamos tus ideas con precisión, calidad y tiempos de entrega garantizados. Contamos con maquinaria de alta tecnología, personal capacitado y experiencia en distintos tipos de telas, incluyendo lonetas, gabardinas, manta, mezclilla, popelina y más. Nos adaptamos a fichas técnicas, muestrarios o muestras físicas, garantizando puntualidad y cumplimiento en cada entrega.
                     Ideal para marcas emergentes, empresas con alta demanda de producción, eventos promocionales o desarrollos textiles personalizados.
                     Nuestra maquila abarca desde el corte hasta el empaque final, adaptándonos a los diseños, materiales y volúmenes de cada cliente.</p>
-                <a class="service-action" href="#">Contacto</a>
+                <!--<a class="service-action" href="#">Contacto</a>-->
             </div>
         </article>
     </div>
