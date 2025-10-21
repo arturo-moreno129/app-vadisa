@@ -2,6 +2,36 @@
 include 'layouts/header.php';
 ?>
 <style>
+    /* ===== ANIMACIÓN SUBE ===== */
+    @keyframes fadeUp {
+        0% {
+            opacity: 0;
+            transform: translateY(40px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .services-hero {
+        opacity: 0;
+        transform: translateY(40px);
+        transition: all 0.8s ease-out;
+    }
+
+    .services-hero.show {
+        opacity: 1;
+        transform: translateY(0);
+        animation: fadeUp 1s ease forwards;
+    }
+
+    /* Ajuste general opcional para fluidez */
+    section {
+        scroll-margin-top: 80px;
+    }
+
     /* === HERO === */
     .services-hero {
         position: relative;
@@ -276,6 +306,34 @@ include 'layouts/header.php';
                     text.style.transform = `translateX(${-move}px)`;
                 }
             }
+        });
+    });
+</script>
+
+
+<!--/* === SCRIPT PARA ANIMACION ENCABEZADIO HERIO === */-->
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const elements = document.querySelectorAll('.services-hero');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                }
+            });
+        }, {
+            threshold: 0.2
+        });
+
+        elements.forEach(el => observer.observe(el));
+
+        // Mostrar al cargar si ya están visibles
+        window.addEventListener('load', () => {
+            elements.forEach(el => {
+                const rect = el.getBoundingClientRect();
+                if (rect.top < window.innerHeight) el.classList.add('show');
+            });
         });
     });
 </script>
