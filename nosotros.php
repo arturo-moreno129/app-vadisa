@@ -6,8 +6,9 @@ include 'layouts/header.php'
 <section class="services-hero" role="img" aria-label="Tela de fondo">
     <div class="hero-content">
         <div class="hero-text">
-            <h1>nuestras telas</h1>
-            <p style="color: white;">Desde el tejido hasta el acabado y maquila, en <strong>Vadisa Textil</strong> transformamos la materia prima en piezas listas para tu producción.</p>
+            <h1>Quiénes somos</h1>
+            <p style="color: white;"><strong>Vadisa Textil</strong> es una empresa especializada en soluciones textiles, comprometida con la calidad, el diseño y la innovación. Tejemos ideas en cada hilo y transformamos telas en productos únicos.
+            </p>
         </div>
     </div>
 </section>
@@ -145,7 +146,7 @@ include 'layouts/header.php'
         position: relative;
         width: 100%;
         height: 100vh;
-        background-image: url('assets/fondo1.jpg');
+        background-image: url('assets/foto5.jpg');
         background-size: cover;
         background-position: center;
         display: flex;

@@ -37,7 +37,7 @@ include 'layouts/header.php';
         position: relative;
         width: 100%;
         height: 100vh;
-        background-image: url('assets/foto5.jpg');
+        background-image: url('assets/teta2.png');
         background-size: cover;
         background-position: center;
         display: flex;
