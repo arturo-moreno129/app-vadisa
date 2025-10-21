@@ -30,7 +30,7 @@ include 'layouts/header.php'
             distintos sectores, desde el institucional hasta el artesanal, brindando soluciones textiles con enfoque
             en funcionalidad, durabilidad y costos competitivos
         </p>
-        <a href="nosotros.html" class="btn-1">Informacion</a>
+        <a href="nosotros" class="btn-1">Informacion</a>
     </div>
     <div class="general-4">
         <video autoplay muted loop playsinline>
