@@ -15,13 +15,13 @@ include 'layouts/header.php';
         }
     }
 
-    .services-hero {
+    .fade-up {
         opacity: 0;
         transform: translateY(40px);
         transition: all 0.8s ease-out;
     }
 
-    .services-hero.show {
+    .fade-up.show {
         opacity: 1;
         transform: translateY(0);
         animation: fadeUp 1s ease forwards;
@@ -124,14 +124,16 @@ include 'layouts/header.php';
         width: 100%;
         height: 340px;
         object-fit: cover;
-        transition: transform 0.6s ease;
+        transition: transform 0.6s ease, filter 0.6s ease;
+        display: block;
     }
 
     .card:hover img {
         transform: scale(1.1);
+        filter: brightness(0.7);
     }
 
-    /* Contenido inferior tipo overlay */
+    /* Contenido inferior */
     .card-content {
         position: absolute;
         bottom: 0;
@@ -141,19 +143,14 @@ include 'layouts/header.php';
         color: #fff;
         padding: 25px;
         text-align: left;
+        z-index: 2;
     }
 
     .card-content h3 {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-weight: 600;
-        margin-bottom: 8px;
-    }
-
-    .card-content p {
-        font-size: 0.95rem;
-        line-height: 1.4;
-        margin-bottom: 12px;
-        color: #e6e6e6;
+        margin: 0;
+        color: black;
     }
 
     .card-content .btn {
@@ -165,6 +162,7 @@ include 'layouts/header.php';
         font-size: 0.9rem;
         text-decoration: none;
         transition: background-color 0.3s ease;
+        margin-top: 10px;
     }
 
     .card-content .btn:hover {
@@ -188,6 +186,10 @@ include 'layouts/header.php';
         .card-content {
             padding: 18px;
         }
+
+        .card-content h3 {
+            font-size: 1.4rem;
+        }
     }
 
     @media (max-width: 480px) {
@@ -206,15 +208,11 @@ include 'layouts/header.php';
         .card-content h3 {
             font-size: 1.2rem;
         }
-
-        .card-content p {
-            font-size: 0.9rem;
-        }
     }
 </style>
 
 <!-- HERO -->
-<section class="services-hero" role="img" aria-label="Tela de fondo">
+<section class="services-hero fade-up" role="img" aria-label="Tela de fondo">
     <div class="hero-text">
         <!--<h1>Nuestras Telas</h1>
         <p>Desde el tejido hasta el acabado y maquila, en <strong>Vadisa Textil</strong> transformamos la materia prima
@@ -224,31 +222,28 @@ include 'layouts/header.php';
 
 <!-- SECCIÓN PRODUCTOS -->
 <section class="productos">
-    <h2 class="titulo">Nuestros Productos</h2>
+    <h2 class="titulo fade-up">Nuestros Productos</h2>
     <div class="cards-container">
-        <div class="card">
+        <div class="card fade-up">
             <img src="assets/acabado.jpg" alt="Acabado">
             <div class="card-content">
-                <h3>Acabado</h3>
-                <p>Acabados de alta calidad que garantizan durabilidad y presentación profesional.</p>
+                <h3>Loneta Canva</h3>
                 <a href="#" class="btn">Ver más</a>
             </div>
         </div>
 
-        <div class="card">
+        <div class="card fade-up">
             <img src="assets/tejido.jpg" alt="Tejido">
             <div class="card-content">
-                <h3>Tejido</h3>
-                <p>Tejidos personalizados con maquinaria avanzada para todo tipo de proyectos.</p>
+                <h3>Bordado punto de cruz</h3>
                 <a href="#" class="btn">Ver más</a>
             </div>
         </div>
 
-        <div class="card">
+        <div class="card fade-up">
             <img src="assets/maquila.jpg" alt="Maquila">
             <div class="card-content">
-                <h3>Maquila</h3>
-                <p>Procesos de maquila con calidad, precisión y puntualidad garantizada.</p>
+                <h3>Entretelas y mantas</h3>
                 <a href="#" class="btn">Ver más</a>
             </div>
         </div>
@@ -256,17 +251,20 @@ include 'layouts/header.php';
 </section>
 
 <script>
-    // Animación hero al aparecer
+    // Animación de aparición con IntersectionObserver
     document.addEventListener("DOMContentLoaded", () => {
-        const hero = document.querySelector('.services-hero');
+        const elements = document.querySelectorAll('.fade-up');
         const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) hero.classList.add('show');
+            entries.forEach((entry, i) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.classList.add('show');
+                    }, i * 150);
+                }
             });
-        }, {
-            threshold: 0.2
-        });
-        observer.observe(hero);
+        }, { threshold: 0.2 });
+
+        elements.forEach(el => observer.observe(el));
     });
 </script>
 
